@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>All Price</title>
+	
+  </head>
+  <body>
+  
+    <header>
+		<img src="estilos/logo3.png" alt='Logo de All Price'>
+		<h1>All Price</h1>
+		<h3>Moedas Permitidas</h3>
+		<p id="po">USD CAD AUD EUR GBP ARS JPY CHF CNY BTC LTC ETH XRP</p>
+	</header>
+	
+	<main>
+		<h2>Buscar Cotaçâo</h2>
+		<form>
+			<input id="point" type="text" placeholder="moedas" oninput="mudar(event)">
+			<input id="botao" type="button" value="Buscar">
+		</form>
+	<div class="result">
+		<ul>
+			<li id="nome">Nome</li>
+			<li id="alto">Valor de Compra</li>
+			<li id="baixo">Valor de Venda</li>
+			<li id="variacao">Variação</li>
+		</ul>
+	</div>
+	</main>
+	<footer>
+	<br></br>
+		<p>Sóstenes de Sousa Ribeiro</p>
+		<p>3º Ano</p>
+	</footer>
+	<script	type="text/javascript" src="script/main1.js"></script>
+  </body>
+</html>

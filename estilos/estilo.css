@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	font-family: Matura MT Script Capitals;
+}
+
+header {
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+}
+ 
+header img {
+	height: 100px;
+}
+#po {
+	font-family: Ariel;
+}
+
+main {
+	background-color: #646f64;
+	padding: 20px;
+}
+
+main h2 {
+	text-align: center;
+}
+
+form {
+	margin: 30px;
+	text-align: center;
+}
+
+
+#na {
+	text-align: center;
+}
+
+.result {
+	flex-direction: column;
+	align-items: center;
+	font-family: Ariel;
+	display: flex;
+}
+
+
+footer{
+	background-color: white
+	padding: 60px;
+}
+
+p{
+	margin: 0 10px;
+}
